@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tributo a kayko (° ` Д ´) — Genio Deidad</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            purple: '#a855f7',
+                            darkPurple: '#581c87',
+                            neonPink: '#ec4899',
+                            cyan: '#06b6d4',
+                            chatDark: '#12131c',
+                            chatCard: '#1a1b26'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        mono: ['Space Grotesk', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0b0c10;
+            color: #f3f4f6;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(168, 85, 247, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(236, 72, 153, 0.15) 0%, transparent 40%);
+        }
+
+        .glow-text {
+            text-shadow: 0 0 15px rgba(168, 85, 247, 0.6), 0 0 30px rgba(236, 72, 153, 0.4);
+        }
+
+        .glow-box {
+            box-shadow: 0 0 25px -5px rgba(168, 85, 247, 0.3);
+        }
+
+        .glass {
+            background: rgba(26, 27, 38, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .notebook-pattern {
+            background-color: #f8fafc;
+            background-image: 
+                linear-gradient(#e2e8f0 1px, transparent 1px),
+                linear-gradient(90deg, #e2e8f0 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(2deg); }
+        }
+
+        .animate-float {
+            animation: float 4s ease-in-out infinite;
+        }
+
+        /* Handwritten math font style */
+        .handwritten {
+            font-family: 'Comic Sans MS', 'Chalkboard SE', 'Casual', cursive;
+            color: #1e3a8a;
+        }
+
+        .handwritten-red {
+            font-family: 'Comic Sans MS', 'Chalkboard SE', 'Casual', cursive;
+            color: #dc2626;
+        }
+    </style>
+</head>
+<body class="min-h-screen font-sans flex flex-col justify-between overflow-x-hidden">
+
+    <header class="w-full border-b border-gray-800 glass fixed top-0 z-50 px-4 py-3">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="relative">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-600 to-pink-500 flex items-center justify-center font-bold text-lg text-white shadow-lg">
+                        K
+                    </div>
+                    <span class="absolute bottom-0 right-0 w-3 h-3 bg-green-500 border-2 border-gray-900 rounded-full"></span>
+                </div>
+                <div>
+                    <h1 class="font-bold text-white tracking-wide text-sm sm:text-base flex items-center gap-2">
+                        ~.💥` kayko ° ( ` Д ´)
+                        <span class="bg-purple-500/20 text-purple-300 text-xs px-2 py-0.5 rounded-full border border-purple-500/30">Verified Deity</span>
+                    </h1>
+                    <p class="text-xs text-gray-400">Status: Hikaruu ya dejo a papaverity</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <a href="#tarea" class="bg-purple-600/80 hover:bg-purple-600 text-white text-xs sm:text-sm px-3 py-1.5 rounded-xl font-medium transition shadow-lg shadow-purple-500/20 flex items-center gap-1.5">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    <span>Ver Tarea</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 pt-24 pb-16 w-full flex-grow space-y-12">
+        
+        <!-- Profile Banner Card -->
+        <section class="glass rounded-3xl p-6 sm:p-8 relative overflow-hidden glow-box border border-purple-500/30">
+            <div class="absolute -right-10 -bottom-10 w-60 h-60 bg-purple-600/20 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute -left-10 -top-10 w-60 h-60 bg-pink-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="flex flex-col md:flex-row items-center gap-6 relative z-10">
+                <div class="relative group">
+                    <div class="w-32 h-32 rounded-3xl bg-gradient-to-tr from-purple-600 via-pink-500 to-cyan-400 p-1 shadow-2xl animate-float">
+                        <div class="w-full h-full bg-gray-900 rounded-[22px] flex flex-col items-center justify-center p-2 text-center">
+                            <span class="text-4xl mb-1">👑</span>
+                            <span class="text-xs font-mono font-bold text-purple-300">GENIO DEIDAD</span>
+                        </div>
+                    </div>
+                    <div class="absolute -bottom-2 -right-2 bg-yellow-400 text-gray-950 font-black text-xs px-2.5 py-1 rounded-full shadow-lg flex items-center gap-1">
+                        <i class="fa-solid fa-bolt"></i> OVER 9000
+                    </div>
+                </div>
+
+                <div class="text-center md:text-left space-y-3 flex-1">
+                    <div class="inline-flex items-center gap-2 bg-purple-950/80 border border-purple-500/40 text-purple-300 text-xs px-3 py-1 rounded-full">
+                        <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+                        Hacedor Oficial de Tareas de Matemática
+                    </div>
+                    <h2 class="text-3xl sm:text-5xl font-black tracking-tight glow-text text-white">
+                        kayko (° ` Д ´)
+                    </h2>
+                    <p class="text-gray-300 max-w-xl text-sm sm:text-base leading-relaxed">
+                        El ser supremo capaz de resolver ecuaciones con radicales a las 9 AM, proclamarse <strong class="text-purple-400">"Genio Deidad"</strong> y dudar de su propio destino en el mismo minuto.
+                    </p>
+
+                    <!-- Aura Clicker Counter -->
+                    <div class="pt-2 flex flex-wrap items-center justify-center md:justify-start gap-4">
+                        <button id="auraBtn" class="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 active:scale-95 text-white font-bold px-5 py-2.5 rounded-2xl shadow-lg transition-all flex items-center gap-2 group">
+                            <i class="fa-solid fa-hand-sparkles group-hover:rotate-12 transition-transform"></i>
+                            <span>Otorgar Aura Deidad</span>
+                        </button>
+                        <div class="bg-gray-900/80 border border-gray-700/80 px-4 py-2 rounded-2xl flex items-center gap-2 font-mono">
+                            <span class="text-gray-400 text-xs">AURA TOTAL:</span>
+                            <span id="auraCounter" class="text-cyan-400 font-bold text-xl">9,999,999</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space-y-4">
+            <div class="flex items-center justify-between">
+                <h3 class="text-xl sm:text-2xl font-bold flex items-center gap-2">
+                    <i class="fa-solid fa-quote-right text-purple-400"></i>
+                     Frases Célebres del Chat
+                </h3>
+                <span class="text-xs text-gray-400 font-mono">WhatsApp Lore 09:02 AM</span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                
+                <div class="glass p-5 rounded-2xl hover:border-purple-500/50 transition cursor-pointer group" onclick="playQuote('OLA CHIXOS')">
+                    <div class="text-purple-400 text-xs font-mono mb-2 flex justify-between">
+                        <span>[09:02] Entrada Épica</span>
+                        <i class="fa-solid fa-volume-high group-hover:text-pink-400"></i>
+                    </div>
+                    <p class="text-lg font-black text-white group-hover:text-purple-300 transition">"OLA CHIXOS"</p>
+                    <p class="text-xs text-gray-400 mt-2">El saludo que paralizó el grupo general.</p>
+                </div>
+
+                <div class="glass p-5 rounded-2xl hover:border-purple-500/50 transition cursor-pointer group" onclick="playQuote('quieren ver mi tarea????')">
+                    <div class="text-purple-400 text-xs font-mono mb-2 flex justify-between">
+                        <span>[09:02] Generosidad pura</span>
+                        <i class="fa-solid fa-volume-high group-hover:text-pink-400"></i>
+                    </div>
+                    <p class="text-lg font-black text-white group-hover:text-purple-300 transition">"quieren ver mi tarea????"</p>
+                    <p class="text-xs text-gray-400 mt-2">Flexeando conocimientos matemáticos.</p>
+                </div>
+
+                <div class="glass p-5 rounded-2xl hover:border-purple-500/50 transition cursor-pointer group" onclick="playQuote('Jojojo Genio deidad soy')">
+                    <div class="text-purple-400 text-xs font-mono mb-2 flex justify-between">
+                        <span>[09:02 - 09:03] Auto-proclamación</span>
+                        <i class="fa-solid fa-volume-high group-hover:text-pink-400"></i>
+                    </div>
+                    <p class="text-lg font-black text-white group-hover:text-purple-300 transition">"Jojojo Genio deidad soy"</p>
+                    <p class="text-xs text-gray-400 mt-2">Pico de confianza absoluta en los algoritmos.</p>
+                </div>
+
+                <div class="glass p-5 rounded-2xl hover:border-purple-500/50 transition cursor-pointer group" onclick="playQuote('Me fslta el 8, 9 y 10 ;(((')">
+                    <div class="text-purple-400 text-xs font-mono mb-2 flex justify-between">
+                        <span>[09:03] Tragedia en 3 actos</span>
+                        <i class="fa-solid fa-volume-high group-hover:text-pink-400"></i>
+                    </div>
+                    <p class="text-lg font-black text-white group-hover:text-purple-300 transition">"Me fslta el 8, 9 y 10 ;((("</p>
+                    <p class="text-xs text-gray-400 mt-2">La realidad golpea incluso al más sabio.</p>
+                </div>
+
+                <div class="glass p-5 rounded-2xl hover:border-purple-500/50 transition cursor-pointer group col-span-1 sm:col-span-2" onclick="playQuote('Gracias amigo no se si es bueno o malo 🫂🫂🫂')">
+                    <div class="text-purple-400 text-xs font-mono mb-2 flex justify-between">
+                        <span>[09:04] Respuesta al GitHub</span>
+                        <i class="fa-solid fa-volume-high group-hover:text-pink-400"></i>
+                    </div>
+                    <p class="text-lg font-black text-white group-hover:text-purple-300 transition">"Gracias amigo no se si es bueno o malo 🫂🫂🫂"</p>
+                    <p class="text-xs text-gray-400 mt-2">Reacción humilde cuando le prometen una página web en GitHub.</p>
+                </div>
+
+            </div>
+
+            <!-- Quote Generator -->
+            <div class="glass p-6 rounded-2xl text-center space-y-4 border border-pink-500/20">
+                <span class="text-xs font-mono uppercase tracking-widest text-pink-400">Generador de Pensamientos de Kayko</span>
+                <div id="randomQuoteBox" class="text-xl font-semibold italic text-gray-200 min-h-[3rem] flex items-center justify-center">
+                    "Genio deidad soy"
+                </div>
+                <button onclick="generateQuote()" class="bg-gray-800 hover:bg-gray-700 text-purple-300 border border-purple-500/30 px-4 py-2 rounded-xl text-sm font-medium transition">
+                    <i class="fa-solid fa-dice mr-2"></i> Generar otra reflexión
+                </button>
+            </div>
+        </section>
+
+        <section id="tarea" class="space-y-6 pt-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                    <h3 class="text-2xl font-bold flex items-center gap-2">
+                        <i class="fa-solid fa-square-root-variable text-cyan-400"></i>
+                        La Hoja Cuadriculada Sagrada
+                    </h3>
+                    <p class="text-sm text-gray-400">Cuaderno interactivo de ecuaciones resueltas por kayko</p>
+                </div>
+
+                <button id="solveRemainingBtn" onclick="solvePendingHomework()" class="bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-gray-950 font-black px-5 py-3 rounded-2xl shadow-lg transition transform hover:scale-105 flex items-center gap-2">
+                    <i class="fa-solid fa-wand-magic-sparkles text-lg"></i>
+                    <span>¡Resolver Ejercicios 8, 9 y 10 Mágicamente!</span>
+                </button>
+            </div>
+
+            <!-- Virtual Notebook UI -->
+            <div class="notebook-pattern rounded-3xl p-6 sm:p-8 text-gray-900 shadow-2xl border-4 border-gray-700 relative overflow-hidden">
+                <!-- Red vertical margin line -->
+                <div class="absolute top-0 bottom-0 left-10 sm:left-16 w-0.5 bg-red-400/60 pointer-events-none"></div>
+
+                <div class="pl-8 sm:pl-12 space-y-8 font-mono">
+                    <div class="border-b border-gray-300 pb-2 flex justify-between items-end">
+                        <span class="text-xs text-gray-500 uppercase font-bold tracking-widest">Materia: Matemática III</span>
+                        <span class="text-xs text-gray-500 font-bold">Nota estimada: 10/10 (Deidad)</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-base">
+                        
+                        <!-- Ejercicio 2 -->
+                        <div class="space-y-1 bg-white/70 p-3 rounded-xl border border-gray-200 shadow-sm">
+                            <span class="text-xs font-bold text-gray-500">Ejercicio 2)</span>
+                            <p class="handwritten text-lg font-bold">∛(x + 1) = -2</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">x + 1 = (-2)³</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">x = -8 - 1</p>
+                            <p class="handwritten text-base font-bold text-blue-700 pl-4">x = -9</p>
+                        </div>
+
+                        <!-- Ejercicio 3 -->
+                        <div class="space-y-1 bg-white/70 p-3 rounded-xl border border-gray-200 shadow-sm">
+                            <span class="text-xs font-bold text-gray-500">Ejercicio 3)</span>
+                            <p class="handwritten text-lg font-bold">∛(x + 1) = 3</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">x + 1 = 3³</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">x = 27 - 1</p>
+                            <p class="handwritten text-base font-bold text-blue-700 pl-4">x = 26</p>
+                        </div>
+
+                        <!-- Ejercicio 4 -->
+                        <div class="space-y-1 bg-white/70 p-3 rounded-xl border border-gray-200 shadow-sm">
+                            <span class="text-xs font-bold text-gray-500">Ejercicio 4)</span>
+                            <p class="handwritten text-lg font-bold">√x - 1 = 2</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">√x = 2 + 1</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">√x = 3</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">x = 3²</p>
+                            <p class="handwritten text-base font-bold text-blue-700 pl-4">x = 9</p>
+                        </div>
+
+                        <!-- Ejercicio 5 -->
+                        <div class="space-y-1 bg-white/70 p-3 rounded-xl border border-gray-200 shadow-sm">
+                            <span class="text-xs font-bold text-gray-500">Ejercicio 5)</span>
+                            <p class="handwritten text-lg font-bold">2√x = 10</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">√x = 10 / 2</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">√x = 5</p>
+                            <p class="handwritten text-base font-bold text-blue-700 pl-4">x = 25</p>
+                        </div>
+
+                        <!-- Ejercicio 6 -->
+                        <div class="space-y-1 bg-white/70 p-3 rounded-xl border border-gray-200 shadow-sm md:col-span-2">
+                            <span class="text-xs font-bold text-gray-500">Ejercicio 6)</span>
+                            <p class="handwritten text-lg font-bold">∛x - 3 = 0</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">∛x = 0 + 3</p>
+                            <p class="handwritten text-sm text-gray-700 pl-4">x = 3³</p>
+                            <p class="handwritten text-base font-bold text-blue-700 pl-4">x = 27</p>
+                        </div>
+
+                        <!-- Pending / Solved Exercises (8, 9, 10) -->
+                        <div id="exercise8" class="space-y-1 bg-amber-50/80 p-4 rounded-xl border-2 border-dashed border-amber-400 transition-all duration-500">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-bold text-amber-700">Ejercicio 8)</span>
+                                <span id="status8" class="text-xs font-bold bg-amber-200 text-amber-800 px-2 py-0.5 rounded">Falta ;(((</span>
+                            </div>
+                            <div id="content8" class="handwritten text-gray-400 italic">
+                                Esperando la revelación divina de kayko...
+                            </div>
+                        </div>
+
+                        <div id="exercise9" class="space-y-1 bg-amber-50/80 p-4 rounded-xl border-2 border-dashed border-amber-400 transition-all duration-500">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-bold text-amber-700">Ejercicio 9)</span>
+                                <span id="status9" class="text-xs font-bold bg-amber-200 text-amber-800 px-2 py-0.5 rounded">Falta ;(((</span>
+                            </div>
+                            <div id="content9" class="handwritten text-gray-400 italic">
+                                Pendiente de resolución...
+                            </div>
+                        </div>
+
+                        <div id="exercise10" class="space-y-1 bg-amber-50/80 p-4 rounded-xl border-2 border-dashed border-amber-400 transition-all duration-500 md:col-span-2">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-bold text-amber-700">Ejercicio 10 - FINAL BOSS</span>
+                                <span id="status10" class="text-xs font-bold bg-amber-200 text-amber-800 px-2 py-0.5 rounded">Falta ;(((</span>
+                            </div>
+                            <div id="content10" class="handwritten text-gray-400 italic">
+                                El desafío definitivo del Genio Deidad...
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="space-y-4">
+            <h3 class="text-xl font-bold flex items-center gap-2">
+                <i class="fa-brands fa-whatsapp text-emerald-400"></i>
+                Recreación del Chat Legendario
+            </h3>
+
+            <div class="glass rounded-3xl p-4 sm:p-6 space-y-4 max-w-2xl mx-auto border border-emerald-500/20">
+                <div class="text-center">
+                    <span class="bg-gray-800 text-gray-400 text-[10px] px-3 py-1 rounded-full uppercase font-mono">Hoy - Grupo "General"</span>
+                </div>
+
+                <!-- Chat Message 1 -->
+                <div class="flex flex-col items-start space-y-1">
+                    <span class="text-xs text-pink-400 font-medium pl-2">~.💥` kayko ° ( ` Д ´)</span>
+                    <div class="bg-gray-800 text-gray-100 rounded-2xl rounded-tl-none px-4 py-2.5 max-w-[85%] shadow-md text-sm">
+                        OLA CHIXOS
+                        <span class="block text-[10px] text-gray-400 text-right mt-1">09:02</span>
+                    </div>
+                </div>
+
+                <!-- Chat Message 2 -->
+                <div class="flex flex-col items-start space-y-1">
+                    <div class="bg-gray-800 text-gray-100 rounded-2xl px-4 py-2.5 max-w-[85%] shadow-md text-sm">
+                        quieren ver mi tarea????
+                        <span class="block text-[10px] text-gray-400 text-right mt-1">09:02</span>
+                    </div>
+                </div>
+
+                <!-- Chat Message 3 (Deity flex) -->
+                <div class="flex flex-col items-start space-y-1">
+                    <div class="bg-gray-800 text-gray-100 rounded-2xl px-4 py-2.5 max-w-[85%] shadow-md text-sm">
+                        Jojojo <br>
+                        <strong class="text-purple-300 font-bold">Genio deidad soy</strong>
+                        <span class="block text-[10px] text-gray-400 text-right mt-1">09:03</span>
+                    </div>
+                </div>
+
+                <!-- Chat Message 4 -->
+                <div class="flex flex-col items-start space-y-1">
+                    <div class="bg-gray-800 text-gray-100 rounded-2xl px-4 py-2.5 max-w-[85%] shadow-md text-sm border-l-2 border-red-400">
+                        Me fslta el 8, 9 y 10 ;(((
+                        <span class="block text-[10px] text-gray-400 text-right mt-1">09:03</span>
+                    </div>
+                </div>
+
+                <!-- Reply Message -->
+                <div class="flex flex-col items-end space-y-1">
+                    <span class="text-xs text-cyan-400 font-medium pr-2">Tú (GitHub Crack)</span>
+                    <div class="bg-purple-900/80 border border-purple-500/30 text-purple-100 rounded-2xl rounded-tr-none px-4 py-2.5 max-w-[85%] shadow-md text-sm">
+                        Ya te hago una pagina en github crack
+                        <span class="block text-[10px] text-purple-300 text-right mt-1">09:03 <i class="fa-solid fa-check-double text-cyan-400"></i></span>
+                    </div>
+                </div>
+
+                <!-- Kayko final reaction -->
+                <div class="flex flex-col items-start space-y-1">
+                    <span class="text-xs text-pink-400 font-medium pl-2">~.💥` kayko ° ( ` Д ´)</span>
+                    <div class="bg-gray-800 text-gray-100 rounded-2xl rounded-tl-none px-4 py-2.5 max-w-[85%] shadow-md text-sm">
+                        Gracias amigo no se si es bueno o malo 🫂🫂🫂
+                        <span class="block text-[10px] text-gray-400 text-right mt-1">09:04</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-gray-800 glass py-6 text-center text-xs text-gray-500 space-y-2">
+        <p>Página creada con tributo y respeto para <strong>kayko (° ` Д ´)</strong> — El Genio Deidad de las Matemáticas.</p>
+        <p class="text-purple-400 font-mono">Deployado con orgullo en GitHub Pages 🚀</p>
+    </footer>
+
+    <!-- Audio Effects using Web Audio API -->
+    <script>
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+        function playSound(freq, duration, type = 'sine') {
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = type;
+            osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+            gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start();
+            osc.stop(audioCtx.currentTime + duration);
+        }
+
+        // Clicker Aura counter state
+        let auraCount = 9999999;
+        const auraBtn = document.getElementById('auraBtn');
+        const auraCounter = document.getElementById('auraCounter');
+
+        auraBtn.addEventListener('click', (e) => {
+            auraCount += 100;
+            auraCounter.innerText = auraCount.toLocaleString();
+            playSound(587.33, 0.15, 'triangle'); // D5 note
+
+            // Floating text animation effect
+            const floatingText = document.createElement('span');
+            floatingText.innerText = '+100 AURA 💥';
+            floatingText.className = 'fixed font-bold text-purple-400 pointer-events-none text-sm animate-bounce z-50';
+            floatingText.style.left = `${e.clientX - 30}px`;
+            floatingText.style.top = `${e.clientY - 20}px`;
+            document.body.appendChild(floatingText);
+
+            setTimeout(() => {
+                floatingText.remove();
+            }, 800);
+        });
+
+        // Quotes Generator
+        const kaykoQuotes = [
+            "OLA CHIXOS",
+            "quieren ver mi tarea????",
+            "Jojojo Genio deidad soy",
+            "Me fslta el 8, 9 y 10 ;(((",
+            "Gracias amigo no se si es bueno o malo 🫂🫂🫂",
+            "x = 26 (Confirmado por los dioses)",
+            "La matemática no falla, yo a veces tipeo mal nomás."
+        ];
+
+        function generateQuote() {
+            playSound(440, 0.1, 'sine');
+            const quoteBox = document.getElementById('randomQuoteBox');
+            const randomQuote = kaykoQuotes[Math.floor(Math.random() * kaykoQuotes.length)];
+            quoteBox.innerHTML = `"${randomQuote}"`;
+        }
+
+        function playQuote(text) {
+            playSound(523.25, 0.2, 'square');
+            alert(`💬 Kayko dice: "${text}"`);
+        }
+
+        // Solve Exercises 8, 9, 10
+        let isSolved = false;
+        function solvePendingHomework() {
+            if (isSolved) return;
+            
+            playSound(880, 0.3, 'sine');
+
+            // Exercise 8
+            const ex8 = document.getElementById('exercise8');
+            ex8.className = "space-y-1 bg-emerald-50 p-4 rounded-xl border-2 border-emerald-500 transition-all duration-500 shadow-md";
+            document.getElementById('status8').className = "text-xs font-bold bg-emerald-200 text-emerald-800 px-2 py-0.5 rounded";
+            document.getElementById('status8').innerText = "¡RESUELTO POR LA DEIDAD!";
+            document.getElementById('content8').innerHTML = `
+                <p class="handwritten text-lg font-bold">8) 3√(x - 2) = 12</p>
+                <p class="handwritten text-sm text-gray-700 pl-4">√(x - 2) = 12 / 3 = 4</p>
+                <p class="handwritten text-sm text-gray-700 pl-4">x - 2 = 4² = 16</p>
+                <p class="handwritten-red text-base font-bold pl-4">x = 18 ✨</p>
+            `;
+
+            // Exercise 9
+            const ex9 = document.getElementById('exercise9');
+            ex9.className = "space-y-1 bg-emerald-50 p-4 rounded-xl border-2 border-emerald-500 transition-all duration-500 shadow-md";
+            document.getElementById('status9').className = "text-xs font-bold bg-emerald-200 text-emerald-800 px-2 py-0.5 rounded";
+            document.getElementById('status9').innerText = "¡RESUELTO POR LA DEIDAD!";
+            document.getElementById('content9').innerHTML = `
+                <p class="handwritten text-lg font-bold">9) ∛(2x + 4) = 4</p>
+                <p class="handwritten text-sm text-gray-700 pl-4">2x + 4 = 4³ = 64</p>
+                <p class="handwritten text-sm text-gray-700 pl-4">2x = 60</p>
+                <p class="handwritten-red text-base font-bold pl-4">x = 30 ✨</p>
+            `;
+
+            // Exercise 10
+            const ex10 = document.getElementById('exercise10');
+            ex10.className = "space-y-1 bg-emerald-50 p-4 rounded-xl border-2 border-emerald-500 transition-all duration-500 shadow-md md:col-span-2";
+            document.getElementById('status10').className = "text-xs font-bold bg-emerald-200 text-emerald-800 px-2 py-0.5 rounded";
+            document.getElementById('status10').innerText = "¡RESUELTO POR LA DEIDAD!";
+            document.getElementById('content10').innerHTML = `
+                <p class="handwritten text-lg font-bold">10) √(x²) + 5 = 15</p>
+                <p class="handwritten text-sm text-gray-700 pl-4">x = 10 (Aura Máxima alcanzada)</p>
+                <p class="handwritten-red text-base font-bold pl-4">x = 100% Aprobado por el profesor 👑</p>
+            `;
+
+            const btn = document.getElementById('solveRemainingBtn');
+            btn.innerHTML = `<i class="fa-solid fa-check-double"></i> <span>¡Tarea Completada 10/10!</span>`;
+            btn.className = "bg-emerald-600 text-white font-bold px-5 py-3 rounded-2xl cursor-default shadow-inner";
+
+            isSolved = true;
+        }
+    </script>
+</body>
+</html>
